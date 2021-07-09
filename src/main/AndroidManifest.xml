@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.banking_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_i"
+        android:label="Basic Banking"
+        android:roundIcon="@mipmap/icon_i"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Transactions"></activity>
+        <activity android:name=".SelectUser" />
+        <activity android:name=".New_Customer" />
+        <activity android:name=".Transfer" />
+        <activity android:name=".Welcome_Page" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
